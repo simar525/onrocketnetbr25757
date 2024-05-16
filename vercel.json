@@ -1,8 +1,11 @@
 {
-  "routes": [
+  "redirects": [{"source": "/eu",       "destination": "/https:uol.com.br",       "permanent": true     }
+],
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "https://rocket.net.br/$1"
- }
+      "source": "/(.*)",
+      "destination": "https://rocket.net.br/$1"
+    }
   ]
 }
+    
